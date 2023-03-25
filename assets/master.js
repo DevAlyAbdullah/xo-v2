@@ -62,11 +62,13 @@ $(function () {
             {
                 audioCongratz.play();
                 $("#victoryNoticeContainer h2").append("Victory, O has won!");
+                $("#victoryNoticeContainer").toggleClass("opacityZero");
                 gameComplete = true;             
             } else if (lastVal == "O")
             {
                 audioCongratz.play();
                 $("#victoryNoticeContainer h2").append("Victory, X has won!");
+                $("#victoryNoticeContainer").toggleClass("opacityZero");
                 gameComplete = true;             
             }
             return false;
