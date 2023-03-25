@@ -9,12 +9,8 @@
     --main-bg-color: #777;
     --blue-color: #1e9aff;
 }
-@font-face {
-    font-family: Alkatra;
-    src: url(/assets/fonts/Alkatra-VariableFont_wght.ttf);
-}
 #mainContainer {
-    font-family: Alkatra, sans-serif;
+    font-family: "Alkatra", sans-serif;
     min-height: 100vh;
     #xoContainer {
         height: 302px;
