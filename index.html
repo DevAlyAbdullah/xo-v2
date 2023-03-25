@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css" />
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/all.min.css" />
+    <!--Style-->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <div id="mainContainer" class="d-flex align-items-center flex-wrap">
+      <div id="xoContainer" class="d-flex flex-wrap">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+        <div id="four"></div>
+        <div id="five"></div>
+        <div id="six"></div>
+        <div id="seven"></div>
+        <div id="eight"></div>
+        <div id="nine"></div>
+      </div>
+      <div id="infoContainer">
+        <div id="newGameContainer">
+          <button onClick="window.location.reload();" class="btn btn-primary">
+            New Game
+          </button>
+        </div>
+        <div id="playingStatusContainer">
+          <h2 class="mt-2 playingStatus">X is now Playing</h2>
+          <h2 class="mt-2 playingStatus myHide">O is now Playing</h2>
+        </div>
+        <div id="victoryNoticeContainer">
+          <h2 class="mt-2">...</h2>
+        </div>
+      </div>
+      <div
+        id="animationContainer"
+        class="d-flex justify-content-center align-items-center"
+      >
+        <div id="animation"></div>
+      </div>
+      <div
+        id="myFooter"
+        class="d-flex justify-content-center align-items-center"
+      >
+        <h2>Coded by love &hearts; DevAlyAbdullah</h2>
+      </div>
+    </div>
+
+    <!--Bootstrap-->
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--jQuery-->
+    <script src="assets/lib/jquery/jquery-3.6.4.min.js"></script>
+    <!--Master-->
+    <script src="assets/master.js"></script>
+  </body>
+</html>
